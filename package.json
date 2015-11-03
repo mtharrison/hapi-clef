@@ -1,10 +1,14 @@
 {
   "name": "hapi-clef",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hapijs plugin for clef two-factor authentication",
   "main": "index.js",
   "scripts": {
     "test": "lab -a code -t 100 -L -m 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mtharrison/hapi-clef.git"
   },
   "author": "Matt Harrison <hi@matt-harrison.com>",
   "license": "BSD-3-Clause",
@@ -15,10 +19,27 @@
     "lab": "^7.1.0",
     "vision": "^3.0.0"
   },
+  "keywords": [
+    "2fa",
+    "two-factor",
+    "auth",
+    "authentication",
+    "hapi",
+    "security",
+    "clef",
+    "hapijs"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "dependencies": {
     "clef": "^0.1.0",
     "boom": "^3.0.0",
     "hoek": "^3.0.1",
     "joi": "^7.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mtharrison/hapi-clef/issues"
+  },
+  "homepage": "https://github.com/mtharrison/hapi-clef#readme",
 }
