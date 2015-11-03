@@ -1,9 +1,9 @@
 # hapi-clef [![Build Status](https://travis-ci.org/mtharrison/hapi-clef.svg)](https://travis-ci.org/mtharrison/hapi-clef)
 ## Magical Two-Factor Auth with Clef and hapijs
 
-This is a plugin that you can use to add 2fa to your hapi apps with ease. It works with the [Authy](https://www.authy.com/) service. Head over to Authy and register for an account. 
+This is a plugin that you can use to add [Clef](https://getclef.com/) login to your hapi apps.
 
-Check out the example under `examples/basic` for a full working example of form based email/password and authy authentication (Authy API Key required)
+Check out the example under `examples` for a full working example (Clef credentials required). 
 
 ### Getting started
 
