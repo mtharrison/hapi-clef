@@ -1,6 +1,6 @@
 {
   "name": "hapi-clef",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "hapijs plugin for clef two-factor authentication",
   "main": "index.js",
   "scripts": {
