@@ -29,7 +29,7 @@ server.auth.strategy('clef', 'clef', {
     appSecret: 'YOUR APP SECRET',
     cookieName: 'hapi-clef',
     cookieOptions: {
-        isSecure: false,
+        isSecure: false, // Terrible idea but needed if not using TLS (you should be!)
         path: '/',
         encoding: 'iron',
         password: 'CHANGE THIS'
