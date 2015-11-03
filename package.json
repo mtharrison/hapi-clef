@@ -1,0 +1,24 @@
+{
+  "name": "hapi-clef",
+  "version": "0.0.1",
+  "description": "hapijs plugin for clef two-factor authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code -t 100 -L -m 10000"
+  },
+  "author": "Matt Harrison <hi@matt-harrison.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "code": "^2.0.1",
+    "hapi": "^11.0.4",
+    "iron": "^3.0.1",
+    "lab": "^7.1.0",
+    "vision": "^3.0.0"
+  },
+  "dependencies": {
+    "clef": "^0.1.0",
+    "boom": "^3.0.0",
+    "hoek": "^3.0.1",
+    "joi": "^7.0.0"
+  }
+}
